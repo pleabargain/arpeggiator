@@ -80,6 +80,22 @@ a_major_scale_simple = {
     ]
 }
 
+e_major_scale_simple = {
+    "right_hand": [
+        (64, 0.5), (66, 0.5), (68, 0.5), (69, 0.5),  # E4, F#4, G#4, A4
+        (71, 0.5), (73, 0.5), (75, 0.5), (76, 0.5),  # B4, C#5, D#5, E5
+        (76, 0.5), (75, 0.5), (73, 0.5), (71, 0.5),  # E5, D#5, C#5, B4
+        (69, 0.5), (68, 0.5), (66, 0.5), (64, 0.5),  # A4, G#4, F#4, E4
+    ],
+    "left_hand": [
+        (40, 0.5), (42, 0.5), (44, 0.5), (45, 0.5),  # E2, F#2, G#2, A2
+        (47, 0.5), (49, 0.5), (51, 0.5), (52, 0.5),  # B2, C#3, D#3, E3
+        (52, 0.5), (51, 0.5), (49, 0.5), (47, 0.5),  # E3, D#3, C#3, B2
+        (45, 0.5), (44, 0.5), (42, 0.5), (40, 0.5),  # A2, G#2, F#2, E2
+    ]
+}
+
+
 
 harmonic_voyage_arpeggio = {
     "right_hand": [
@@ -852,6 +868,7 @@ def list_and_select_melody():
         "g_major_scale_simple": g_major_scale_simple,
         "d_major_scale_simple": d_major_scale_simple,
         "a_major_scale_simple": a_major_scale_simple,
+        "e_major_scale_simple": e_major_scale_simple,
         "circle_of_fifths_arpeggio": circle_of_fifths_arpeggio,
         "bass_and_treble_piece": bass_and_treble_piece,
         "ascend_and_descend_bass_and_treble_piece": ascend_and_descend_bass_and_treble_piece,
