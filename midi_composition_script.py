@@ -96,6 +96,98 @@ e_major_scale_simple = {
 }
 
 
+b_major_scale_simple = {
+    "right_hand": [
+        (71, 0.5), (73, 0.5), (75, 0.5), (76, 0.5),  # B4, C#5, D#5, E5
+        (78, 0.5), (80, 0.5), (82, 0.5), (83, 0.5),  # F#5, G#5, A#5, B5
+        (83, 0.5), (82, 0.5), (80, 0.5), (78, 0.5),  # B5, A#5, G#5, F#5
+        (76, 0.5), (75, 0.5), (73, 0.5), (71, 0.5),  # E5, D#5, C#5, B4
+    ],
+    "left_hand": [
+        (47, 0.5), (49, 0.5), (51, 0.5), (52, 0.5),  # B2, C#3, D#3, E3
+        (54, 0.5), (56, 0.5), (58, 0.5), (59, 0.5),  # F#3, G#3, A#3, B3
+        (59, 0.5), (58, 0.5), (56, 0.5), (54, 0.5),  # B3, A#3, G#3, F#3
+        (52, 0.5), (51, 0.5), (49, 0.5), (47, 0.5),  # E3, D#3, C#3, B2
+    ]
+}
+
+g_flat_major_scale_simple = {
+    "right_hand": [
+        (66, 0.5), (68, 0.5), (69, 0.5), (71, 0.5),  # Gb4, Ab4, A4, Bb4
+        (73, 0.5), (75, 0.5), (77, 0.5), (78, 0.5),  # Cb5, Db5, Eb5, F5
+        (78, 0.5), (77, 0.5), (75, 0.5), (73, 0.5),  # F5, Eb5, Db5, Cb5
+        (71, 0.5), (69, 0.5), (68, 0.5), (66, 0.5),  # Bb4, A4, Ab4, Gb4
+    ],
+    "left_hand": [
+        (42, 0.5), (44, 0.5), (45, 0.5), (47, 0.5),  # Gb2, Ab2, A2, Bb2
+        (49, 0.5), (51, 0.5), (53, 0.5), (54, 0.5),  # Cb3, Db3, Eb3, F3
+        (54, 0.5), (53, 0.5), (51, 0.5), (49, 0.5),  # F3, Eb3, Db3, Cb3
+        (47, 0.5), (45, 0.5), (44, 0.5), (42, 0.5),  # Bb2, A2, Ab2, Gb2
+    ]
+}
+
+d_flat_major_scale_simple = {
+    "right_hand": [
+        (61, 0.5), (63, 0.5), (65, 0.5), (66, 0.5),  # Db4, Eb4, F4, Gb4
+        (68, 0.5), (70, 0.5), (72, 0.5), (73, 0.5),  # Ab4, Bb4, C5, Db5
+        (73, 0.5), (72, 0.5), (70, 0.5), (68, 0.5),  # Db5, C5, Bb4, Ab4
+        (66, 0.5), (65, 0.5), (63, 0.5), (61, 0.5),  # Gb4, F4, Eb4, Db4
+    ],
+    "left_hand": [
+        (37, 0.5), (39, 0.5), (41, 0.5), (42, 0.5),  # Db2, Eb2, F2, Gb2
+        (44, 0.5), (46, 0.5), (48, 0.5), (49, 0.5),  # Ab2, Bb2, C3, Db3
+        (49, 0.5), (48, 0.5), (46, 0.5), (44, 0.5),  # Db3, C3, Bb2, Ab2
+        (42, 0.5), (41, 0.5), (39, 0.5), (37, 0.5),  # Gb2, F2, Eb2, Db2
+    ]
+}
+
+a_flat_major_scale_simple = {
+    "right_hand": [
+        (68, 0.5), (70, 0.5), (72, 0.5), (73, 0.5),  # Ab4, Bb4, C5, Db5
+        (75, 0.5), (77, 0.5), (79, 0.5), (80, 0.5),  # Eb5, F5, G5, Ab5
+        (80, 0.5), (79, 0.5), (77, 0.5), (75, 0.5),  # Ab5, G5, F5, Eb5
+        (73, 0.5), (72, 0.5), (70, 0.5), (68, 0.5),  # Db5, C5, Bb4, Ab4
+    ],
+    "left_hand": [
+        (44, 0.5), (46, 0.5), (48, 0.5), (49, 0.5),  # Ab2, Bb2, C3, Db3
+        (51, 0.5), (53, 0.5), (55, 0.5), (56, 0.5),  # Eb3, F3, G3, Ab3
+        (56, 0.5), (55, 0.5), (53, 0.5), (51, 0.5),  # Ab3, G3, F3, Eb3
+        (49, 0.5), (48, 0.5), (46, 0.5), (44, 0.5),  # Db3, C3, Bb2, Ab2
+    ]
+}
+
+
+e_flat_major_scale_simple = {
+    "right_hand": [
+        (63, 0.5), (65, 0.5), (67, 0.5), (68, 0.5),  # Eb4, F4, G4, Ab4
+        (70, 0.5), (72, 0.5), (74, 0.5), (75, 0.5),  # Bb4, C5, D5, Eb5
+        (75, 0.5), (74, 0.5), (72, 0.5), (70, 0.5),  # Eb5, D5, C5, Bb4
+        (68, 0.5), (67, 0.5), (65, 0.5), (63, 0.5),  # Ab4, G4, F4, Eb4
+    ],
+    "left_hand": [
+        (39, 0.5), (41, 0.5), (43, 0.5), (44, 0.5),  # Eb2, F2, G2, Ab2
+        (46, 0.5), (48, 0.5), (50, 0.5), (51, 0.5),  # Bb2, C3, D3, Eb3
+        (51, 0.5), (50, 0.5), (48, 0.5), (46, 0.5),  # Eb3, D3, C3, Bb2
+        (44, 0.5), (43, 0.5), (41, 0.5), (39, 0.5),  # Ab2, G2, F2, Eb2
+    ]
+}
+
+b_flat_major_scale_simple = {
+    "right_hand": [
+        (70, 0.5), (72, 0.5), (74, 0.5), (75, 0.5),  # Bb4, C5, D5, Eb5
+        (77, 0.5), (79, 0.5), (81, 0.5), (82, 0.5),  # F5, G5, A5, Bb5
+        (82, 0.5), (81, 0.5), (79, 0.5), (77, 0.5),  # Bb5, A5, G5, F5
+        (75, 0.5), (74, 0.5), (72, 0.5), (70, 0.5),  # Eb5, D5, C5, Bb4
+    ],
+    "left_hand": [
+        (46, 0.5), (48, 0.5), (50, 0.5), (51, 0.5),  # Bb2, C3, D3, Eb3
+        (53, 0.5), (55, 0.5), (57, 0.5), (58, 0.5),  # F3, G3, A3, Bb3
+        (58, 0.5), (57, 0.5), (55, 0.5), (53, 0.5),  # Bb3, A3, G3, F3
+        (51, 0.5), (50, 0.5), (48, 0.5), (46, 0.5),  # Eb3, D3, C3, Bb2
+    ]
+}
+
+
 
 harmonic_voyage_arpeggio = {
     "right_hand": [
@@ -860,7 +952,18 @@ def reverse_melody(melody):
     }
     return reversed_melody
 
-def list_and_select_melody():
+def combine_melodies(melodies):
+    combined_melody = {
+        "right_hand": [],
+        "left_hand": []
+    }
+    for melody in melodies.values():
+        combined_melody["right_hand"].extend(melody["right_hand"])
+        combined_melody["left_hand"].extend(melody["left_hand"])
+    return combined_melody
+
+
+def list_and_select_melody(melodies):
     # List of available dictionaries
     melodies = {
         "f_major_scale_simple": f_major_scale_simple,
@@ -869,6 +972,12 @@ def list_and_select_melody():
         "d_major_scale_simple": d_major_scale_simple,
         "a_major_scale_simple": a_major_scale_simple,
         "e_major_scale_simple": e_major_scale_simple,
+        "b_major_scale_simple": b_major_scale_simple,
+        "g_flat_major_scale_simple": g_flat_major_scale_simple,
+        "d_flat_major_scale_simple": d_flat_major_scale_simple,
+        "a_flat_major_scale_simple": a_flat_major_scale_simple,
+        "e_flat_major_scale_simple": e_flat_major_scale_simple,
+        "b_flat_major_scale_simple": b_flat_major_scale_simple,
         "circle_of_fifths_arpeggio": circle_of_fifths_arpeggio,
         "bass_and_treble_piece": bass_and_treble_piece,
         "ascend_and_descend_bass_and_treble_piece": ascend_and_descend_bass_and_treble_piece,
@@ -895,7 +1004,7 @@ def list_and_select_melody():
     # Show the list of dictionaries to the user
     print("Available melodies:")
     for i, melody_name in enumerate(melodies.keys(), start=1):
-        print(f"{i}. {melody_name}")
+            print(f"{i}. {melody_name}")
 
     # Allow user to select multiple melodies from the dictionary
     selections = input("Enter the numbers of the melodies you want to select, separated by commas: ")
@@ -906,8 +1015,9 @@ def list_and_select_melody():
         selected_melodies[melody_name] = melodies[melody_name]
         print(f"You have selected: {melody_name}")
 
-    # Return the selected melodies
-    return selected_melodies
+    # Combine the selected melodies
+    combined_melody = combine_melodies(selected_melodies)
+    return combined_melody
 
 
 def count_notes_in_melody(melody):
@@ -976,12 +1086,15 @@ def prompt_for_reversal(melody):
     return melody
 
 
+# Main execution
 if __name__ == "__main__":
     while True:  # Start of the loop
-        selected_melodies = list_and_select_melody()
-        for melody_name, melody in selected_melodies.items():
-            melody = prompt_for_reversal(melody)
-            create_midi_from_melody(melody, melody_name)
+        melodies = {
+            # ... (list of melodies as before)
+        }
+        combined_melody = list_and_select_melody(melodies)
+        combined_melody = prompt_for_reversal(combined_melody)
+        create_midi_from_melody(combined_melody, "combined_melody")
         
         # Check if the user wants to exit the program
         exit_program = input("Type 'exit' to quit the program, or press Enter to continue: ").strip().lower()
